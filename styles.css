@@ -1,0 +1,199 @@
+/* Hacker-Themed Portfolio CSS */
+body {
+    background: black url('img/smith.jpg') no-repeat center center fixed;
+    background-size: cover;
+    filter: brightness(60%); /* Reduce brightness but keep visibility */
+    color: #00ff00; /* Green hacker text */
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Overlay for Darker Effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Lighter overlay to maintain visibility */
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 0 15px #00ff00;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.large-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.large-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 15px #00ff00;
+    color: white;
+}
+
+.large-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ff00;
+}
+
+.achievement-cards, .card-container, .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.achievement-card, .card, .skills-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+/* Hover Effects */
+.card:hover, .large-card:hover, .achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00ff00;
+}
+
+/* Footer with Contact Cards */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00ff00;
+}
+
+.contact-card a {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    text-shadow: 0 0 10px #00ff00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #00ff00;
+    margin-top: 30px;
+    text-shadow: 0 0 10px #00ff00;
+}
+/* Quote Section Styling */
+.quote-container {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.visitor-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counter-icon {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #00ff00;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background: rgba(0, 255, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    margin: 10px 0;
+    color: #00ff00;
+    max-width: 80%;
+    text-align: center;
+}
