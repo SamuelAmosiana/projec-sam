@@ -128,7 +128,7 @@ nav ul li a:hover {
     width: 250px;
     text-align: center;
     border: 2px solid #0080FF;
-    box-shadow: 0 0 10px #4169E1;
+    box-shadow: 0 0 10px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #ffffff; /* White text */
 }
@@ -152,7 +152,7 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(65, 105, 225, 0.9); /* Doja blue background */
+    background: rgb(249, 246, 246); /* Doja blue background */
     border-top: 2px solid #ffffff;
     margin-top: 30px;
     text-shadow: 0 0 10px #ffffff;
