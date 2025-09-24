@@ -1,15 +1,15 @@
-/* Hacker-Themed Portfolio CSS */
+/* Doja Blue and White Portfolio CSS */
 body {
-    background: black url('img/smith.jpg') no-repeat center center fixed;
+    background: white url('img/smith.jpg') no-repeat center center fixed;
     background-size: cover;
-    filter: brightness(60%); /* Reduce brightness but keep visibility */
-    color: #00ff00; /* Green hacker text */
+    filter: brightness(70%); /* Slightly brighter for the new theme */
+    color: #ffffff; /* White text */
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
 }
 
-/* Overlay for Darker Effect */
+/* Overlay for Doja Blue Effect */
 body::before {
     content: "";
     position: fixed;
@@ -17,7 +17,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Lighter overlay to maintain visibility */
+    background: rgba(65, 105, 225, 0.3); /* Doja blue overlay */
     z-index: -1;
 }
 
@@ -25,16 +25,17 @@ header {
     text-align: center;
     padding: 20px;
     font-size: 24px;
-    background: rgba(0, 0, 0, 0.9);
-    border-bottom: 2px solid #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    background: rgba(65, 105, 225, 0.9); /* Doja blue background */
+    border-bottom: 2px solid #ffffff;
+    text-shadow: 0 0 10px #ffffff;
+    color: #ffffff;
 }
 
 nav ul {
     list-style-type: none;
     padding: 10px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.9); /* White background */
 }
 
 nav ul li {
@@ -43,14 +44,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #00ff00;
+    color: #4169E1; /* Doja blue links */
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-shadow: 0 0 15px #00ff00;
+    text-shadow: 0 0 15px #4169E1;
+    color: #0080FF; /* Brighter blue on hover */
 }
 
 .container {
@@ -68,20 +71,20 @@ nav ul li a:hover {
 }
 
 .large-card {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.9); /* White background */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 15px #00ff00;
-    color: white;
+    border: 2px solid #4169E1; /* Doja blue border */
+    box-shadow: 0 0 15px #4169E1;
+    color: #4169E1; /* Doja blue text */
 }
 
 .large-card img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #00ff00;
+    border: 3px solid #4169E1; /* Doja blue border */
 }
 
 .achievement-cards, .card-container, .skills-container {
@@ -93,19 +96,20 @@ nav ul li a:hover {
 }
 
 .achievement-card, .card, .skills-card {
-    background: rgba(0, 0, 0, 0.8);
+    background: #4169E1; /* Doja blue background */
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     text-align: center;
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 15px #00ff00;
+    border: 2px solid #0080FF;
+    box-shadow: 0 0 15px #4169E1;
+    color: #ffffff; /* White text for contrast */
 }
 
 /* Hover Effects */
 .card:hover, .large-card:hover, .achievement-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px #00ff00;
+    box-shadow: 0 0 20px #0080FF; /* Brighter blue glow on hover */
 }
 
 /* Footer with Contact Cards */
@@ -118,49 +122,53 @@ nav ul li a:hover {
 }
 
 .contact-card {
-    background: rgba(0, 0, 0, 0.8);
+    background: #4169E1; /* Doja blue background */
     padding: 20px;
     border-radius: 10px;
     width: 250px;
     text-align: center;
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 10px #00ff00;
+    border: 2px solid #0080FF;
+    box-shadow: 0 0 10px #4169E1;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #ffffff; /* White text */
 }
 
 .contact-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px #00ff00;
+    box-shadow: 0 0 20px #0080FF; /* Bright blue glow */
 }
 
 .contact-card a {
-    color: #00ff00;
+    color: #ffffff; /* White links for contrast */
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact-card a:hover {
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #ffffff;
+    color: #E6F3FF; /* Light blue on hover */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    border-top: 2px solid #00ff00;
+    background: rgba(65, 105, 225, 0.9); /* Doja blue background */
+    border-top: 2px solid #ffffff;
     margin-top: 30px;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #ffffff;
+    color: #ffffff;
 }
 /* Quote Section Styling */
 .quote-container {
-    background: rgba(0, 0, 0, 0.8);
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 10px #00ff00;
+    background: rgba(255, 255, 255, 0.9); /* White background */
+    border: 2px solid #4169E1;
+    box-shadow: 0 0 10px #4169E1;
     padding: 20px;
     margin: 40px auto;
     width: 80%;
     border-radius: 10px;
     text-align: center;
+    color: #4169E1; /* Doja blue text */
 }
 
 .visitor-counter {
@@ -173,7 +181,7 @@ footer {
 .counter-icon {
     font-size: 18px;
     margin-right: 10px;
-    color: #00ff00;
+    color: #4169E1; /* Doja blue */
 }
 
 .quotes {
@@ -183,18 +191,19 @@ footer {
     justify-content: center;
     gap: 15px;
     padding: 20px;
-    background: rgba(0, 255, 0, 0.1);
+    background: rgba(65, 105, 225, 0.1); /* Light doja blue background */
     border-radius: 10px;
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 10px #00ff00;
+    border: 2px solid #4169E1;
+    box-shadow: 0 0 10px #4169E1;
 }
 
 .quote {
     font-size: 16px;
     font-style: italic;
     margin: 10px 0;
-    color: #00ff00;
+    color: #4169E1; /* Doja blue text */
     max-width: 80%;
     text-align: center;
+    font-weight: bold;
 }
 

@@ -10,17 +10,17 @@
    <STYLe>
 /* Achievements Page Styling */
 body {
-    background: black url('img/smith.jpg') no-repeat center center fixed;
+    background: white url('img/smith.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #00ff00; /* Hacker green text */
+    color: #ffffff; /* White text */
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 2rem;
-    filter: brightness(60%);
+    filter: brightness(70%);
     position: relative;
 }
 
-/* Dark overlay for better text contrast */
+/* Doja blue overlay for better text contrast */
 body::before {
     content: "";
     position: fixed;
@@ -28,7 +28,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Soft overlay for readability */
+    background: rgba(65, 105, 225, 0.3); /* Doja blue overlay */
     z-index: -1;
 }
 
@@ -43,18 +43,18 @@ body::before {
 
 /* Transparent cyber-style achievement cards */
 .achievement-card {
-    background: rgba(0, 0, 0, 0.6); /* Dark glassy background */
-    border: 2px solid #00ff00; /* Hacker green border */
+    background: rgba(255, 255, 255, 0.9); /* White glassy background */
+    border: 2px solid #4169E1; /* Doja blue border */
     padding: 1.5rem;
     border-radius: 12px;
     backdrop-filter: blur(8px); /* Frosted glass effect */
-    color: #e0e0e0;
-    box-shadow: 0 0 10px #00ff00;
+    color: #4169E1; /* Doja blue text */
+    box-shadow: 0 0 10px #4169E1;
     transition: all 0.3s ease-in-out;
 }
 
 .achievement-card h3 {
-    color: #00ff00;
+    color: #4169E1; /* Doja blue headings */
     font-family: 'Courier New', monospace;
     margin-top: 0;
 }
@@ -62,16 +62,16 @@ body::before {
 /* Hover effect */
 .achievement-card:hover {
     transform: translateY(-6px);
-    background: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 0 20px #00ff00;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 20px #0080FF; /* Bright blue glow */
 }
 
 /* Read more buttons */
 .read-more-btn {
-    color: #00ff00;
+    color: #4169E1; /* Doja blue */
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid #00ff00;
+    border: 1px solid #4169E1;
     padding: 0.4rem 1rem;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -80,59 +80,59 @@ body::before {
 }
 
 .read-more-btn:hover {
-    background: #00ff00;
-    color: #000;
+    background: #4169E1;
+    color: #ffffff; /* White text on hover */
 }
 .content {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent */
+  background: rgba(255, 255, 255, 0.9); /* White semi-transparent */
   backdrop-filter: blur(4px);    /* glass effect */
-  color: #FFFFFF;
+  color: #4169E1; /* Doja blue text */
 }
 
    </STYLe>
 
-<section id="achievements-page" style="padding: 2rem; max-width: 1200px; margin: 0 auto; background: #121212; color: #FFFFFF;">
+<section id="achievements-page" style="padding: 2rem; max-width: 1200px; margin: 0 auto; background: rgba(255, 255, 255, 0.9); color: #4169E1;">
     <!-- Back to Home Link (Top Right) -->
     <div style="text-align: right; margin-bottom: 1rem;">
-        <a href="index.html" style="color: #9FE855; text-decoration: none; font-weight: bold; border: 1px solid #9FE855; padding: 0.5rem 1rem; border-radius: 4px; display: inline-block;">
+        <a href="index.html" style="color: #4169E1; text-decoration: none; font-weight: bold; border: 1px solid #4169E1; padding: 0.5rem 1rem; border-radius: 4px; display: inline-block;">
             ← Back to Home
         </a>
     </div>
 
-    <h2 style="text-align: center; color: #9FE855; margin-bottom: 2rem; font-family: 'Courier New', monospace;">MY ACHIEVEMENTS</h2>
+    <h2 style="text-align: center; color: #4169E1; margin-bottom: 2rem; font-family: 'Courier New', monospace;">MY ACHIEVEMENTS</h2>
     
     <div class="achievement-cards">
         <!-- Cybersecurity Training -->
-        <div class="achievement-card" style="background: #1E1E1E; border-left: 4px solid #9FE855; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
-            <h3 style="color: #9FE855; font-family: 'Courier New', monospace;">🛡️ CYBERSECURITY & DATA PROTECTION TRAINING</h3>
+        <div class="achievement-card" style="background: rgba(255, 255, 255, 0.9); border-left: 4px solid #4169E1; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
+            <h3 style="color: #4169E1; font-family: 'Courier New', monospace;">🛡️ CYBERSECURITY & DATA PROTECTION TRAINING</h3>
             <p>Awarded a <strong>certificate</strong> after completing an intensive seminar on <strong>cybersecurity best practices and data protection</strong>.</p>
-            <span style="font-style: italic; color: #AAAAAA;">2024</span>
+            <span style="font-style: italic; color: #6699FF;">2024</span>
             <a href="achievement1.html" class="read-more-btn" style="display: inline-block; margin-top: 0.5rem;">READ MORE →</a>
         </div>
 
         <!-- CTF Competition -->
-        <div class="achievement-card" style="background: #1E1E1E; border-left: 4px solid #9FE855; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
-            <h3 style="color: #9FE855; font-family: 'Courier New', monospace;">🏆 CTF COMPETITION 2024</h3>
+        <div class="achievement-card" style="background: rgba(255, 255, 255, 0.9); border-left: 4px solid #4169E1; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
+            <h3 style="color: #4169E1; font-family: 'Courier New', monospace;">🏆 CTF COMPETITION 2024</h3>
             <p>Led a team to the <strong>2024 Capture the Flag (CTF)</strong> competition at UNICEF Campus, organized by Digital Safe.</p>
-            <span style="font-style: italic; color: #AAAAAA;">2024</span>
+            <span style="font-style: italic; color: #6699FF;">2024</span>
             <a href="ctf-details.html" class="read-more-btn" style="display: inline-block; margin-top: 0.5rem;">READ MORE →</a>
         </div>
 
         <!-- ICTAZ Certification -->
-        <div class="achievement-card" style="background: #1E1E1E; border-left: 4px solid #9FE855; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
-            <h3 style="color: #9FE855; font-family: 'Courier New', monospace;">📜 ICTAZ CERTIFIED MEMBER</h3>
+        <div class="achievement-card" style="background: rgba(255, 255, 255, 0.9); border-left: 4px solid #4169E1; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
+            <h3 style="color: #4169E1; font-family: 'Courier New', monospace;">📜 ICTAZ CERTIFIED MEMBER</h3>
             <p>Certified member of the <strong>Information and Communication Technology Association of Zambia (ICTAZ)</strong>.</p>
-            <span style="font-style: italic; color: #AAAAAA;">2023</span>
+            <span style="font-style: italic; color: #6699FF;">2023</span>
         </div>
 
         <!-- University ICT Association -->
-        <div class="achievement-card" style="background: #1E1E1E; border-left: 4px solid #9FE855; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
-            <h3 style="color: #9FE855; font-family: 'Courier New', monospace;">🎖️ PRESIDENT, CHALIMBANA UNIVERSITY ICT ASSOCIATION</h3>
+        <div class="achievement-card" style="background: rgba(255, 255, 255, 0.9); border-left: 4px solid #4169E1; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px;">
+            <h3 style="color: #4169E1; font-family: 'Courier New', monospace;">🎖️ PRESIDENT, CHALIMBANA UNIVERSITY ICT ASSOCIATION</h3>
             <p>Elected <strong>President</strong> of the university's ICT Association.</p>
-            <span style="font-style: italic; color: #AAAAAA;">2023-2024</span>
+            <span style="font-style: italic; color: #6699FF;">2023-2024</span>
             <a href="university-ict.html" class="read-more-btn" style="display: inline-block; margin-top: 0.5rem;">READ MORE →</a>
         </div>
     </div>
